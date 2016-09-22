@@ -1,0 +1,32 @@
+<Ball>
+	size: 50, 50
+    canvas:
+        Ellipse:
+            pos:self.pos
+            size:self.size
+<Hypothetical_line>
+	opacity: .4
+
+<Up_token>
+	size: 50,50
+	canvas:
+		Rectangle:
+			pos:self.pos
+			size:self.size
+			source: "rocket.png"
+
+<Background_Line>
+	size:320,3
+	pos:0,0
+	opacity:.3
+	canvas:
+		Rectangle:
+			pos:self.pos
+			size: self.size
+<Target>
+	size: 20,20
+	opacity:.8
+	canvas:
+		Rectangle:
+			pos: self.pos
+			size: self.size
