@@ -1,2 +1,2 @@
-Bumpers: Off
-Tutorial: Off
+Bumpers: On
+Tutorial: On
